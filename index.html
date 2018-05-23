@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Train Time!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="jumbotron jumbotron-fluid horizontal-center">
+        <div class="container">
+            <h1 class="display-3">Catch That Train!</h1>
+            <p class="lead">Never be late again</p>
+            <hr class="my-2">
+            <p>... At least not because of a missed train</p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="col-11">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Train Schedule</h4>
+                    <p class="card-text">
+                        <table class="table borderless">
+                            <thead>
+                                <tr>
+                                    <th>Train Name</th>
+                                    <th>Destination</th>
+                                    <th>Frequency (min)</th>
+                                    <th>Next Arrival</th>
+                                    <th>Minutes Away</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td scope="row">Trika Express</td>
+                                    <td>Trikaland</td>
+                                    <td>20</td>
+                                    <td>5:00 PM</td>
+                                    <td>next train - current time</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <div class="row justify-content-center">
+        <div class="col-11">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Add Train</h4>
+                    <p class="card-text">
+                        <div class="form-group">
+                            <div class="form-group row">
+                                <label for="">Train Name</label>
+                                <input type="text" class="form-control" name="" id="train-name" aria-describedby="helpId" placeholder="Train Name">
+                            </div>
+
+                            <div class="form-group row">
+                                <label for="">Destination</label>
+                                <input type="text" class="form-control" name="" id="destination" aria-describedby="helpId" placeholder="Destination">
+                            </div>
+                            <div class="form-group row">
+                                <label for="">First Train Time (HH:mm - Military Time)</label>
+                                <input type="text" class="form-control" name="" id="first-train" aria-describedby="helpId" placeholder="First Train Time">
+                            </div>
+                            <div class="form-group row">
+                                <label for="">Frequency (min)</label>
+                                <input type="text" class="form-control" name="" id="frequency" aria-describedby="helpId" placeholder="Frequency">
+                            </div>
+                            <button type="submit" id="add-train-btn" class="btn btn-outline-dark">Add Train</button>
+
+
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase.js"></script>
+</body>
+
+</html>

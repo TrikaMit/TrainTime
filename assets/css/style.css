@@ -1,0 +1,35 @@
+.jumbotron{
+    text-align: center;
+    padding: 30px;
+    background: #BCDEEA;
+    border-bottom: #3986A1 2px dashed;
+    color: rgb(20, 59, 73);
+}
+.card{
+    border: #3986A1 1px solid;
+}
+
+.card-title{
+    padding-bottom: 5px;
+    border-bottom: #3986A1 1px solid;
+    color: rgb(20, 59, 73);
+    margin: 0px;
+}
+.my-2{
+    color: #3986A1;
+    background: none;
+    border-top: 0px;
+    border-bottom: #3986A1 2px dashed;
+}
+.form-group{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.borderless td, 
+.borderless th {
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
